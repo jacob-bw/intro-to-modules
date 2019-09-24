@@ -15,7 +15,7 @@ const addToCartEvent = () => {
 }
    
 const makeStore = () => {
-      let domString = '<h2>Our only book:';
+      let domString = '<h2>Our only book:<h2>';
       domString += '<p>Buy it now:</p>';
       domString += `<h3>$${bookInfo.price}<h3>`;
       domString += `<img src=${bookInfo.image}>`;
